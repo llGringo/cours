@@ -1,0 +1,20 @@
+INDEX VERSION 1.130+C:\Users\fabiod\Downloads\faster\dev\java\cours\chapitre_2\.metadata\.plugins\org.eclipse.jdt.core
+2096418594.index
+1199420574.index
+1250997874.index
+775609958.index
+3481847592.index
+4048701155.index
+718692258.index
+2734864731.index
+2889286727.index
+742945831.index
+1124326566.index
+804640481.index
+4129428983.index
+3127764659.index
+616640055.index
+1663410731.index
+575371332.index
+278678789.index
+3761258104.index

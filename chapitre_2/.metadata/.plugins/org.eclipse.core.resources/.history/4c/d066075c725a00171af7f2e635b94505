@@ -1,0 +1,13 @@
+
+public class Ville {
+	String nomVille;
+	String nomPays;
+	int nbreHabitants;
+
+	public Ville(){
+		System.out.println("Création d'une ville !");
+		nomVille = "Inconnu";
+		nomPays = "Inconnu";
+		nbreHabitants = 0;
+	}
+}
