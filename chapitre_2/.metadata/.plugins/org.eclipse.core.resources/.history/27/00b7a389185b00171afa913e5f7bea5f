@@ -1,15 +1,9 @@
 
 public class Ville {
-	
-	public static int nbreInstances = 0;
-	protected static int nbreInstancesBis = 0;
-
-	protected String nomVille;
-	protected String nomPays;
-	protected int nbreHabitants;
-	protected char categorie;
-
-
+	private String nomVille;
+	private String nomPays;
+	private int nbreHabitants;
+	private char categorie;
 
 	public Ville(){
 		System.out.println("Création d'une ville !");
@@ -17,8 +11,6 @@ public class Ville {
 		nomPays = "Inconnu";
 		nbreHabitants = 0;
 		this.setCategorie();
-		nbreInstances++;
-		nbreInstancesBis++;
 	}
 
 
@@ -30,8 +22,6 @@ public class Ville {
 		nomPays = pPays;
 		nbreHabitants = pNbre;
 		this.setCategorie();
-		nbreInstances++;
-		nbreInstancesBis++;
 
 	}
 
@@ -46,10 +36,6 @@ public class Ville {
 
 	public int getNbreHabitants(){
 		return nbreHabitants;
-	}
-
-	public static int getNbreInstancesBis(){
-		return nbreInstancesBis;
 	}
 
 
@@ -67,11 +53,11 @@ public class Ville {
 	public void setNbreHabitants(int nbre)
 	{
 		nbreHabitants = nbre;
-		this.setCategorie();
+		this.categorie();
 	}
 
 	// Dedinir categorie de la ville
-	protected void setCategorie(){
+	private void setCategorie(){
 
 		int bornesSuperieures[] = {0, 1000, 10000, 100000, 500000, 1000000, 5000000, 10000000};
 		char categorie[] = {'?', 'A', 'B', 'C', 'D', 'E', 'F', 'G', 'H'};

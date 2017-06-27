@@ -23,7 +23,7 @@ public class ClassMain {
 
 		// changer noms des villes avec les mutateurs
 
-		System.out.println("Le nombre d'instances de la classe Ville est : " + Ville.nbreInstances);
+		System.out.println("Le nombre d'instances de la classe Ville est : " + Ville.nbreInstances;
 		System.out.println("Le nombre d'instances de la classe Ville est : " + Ville.getNbreInstancesBis());
 
 		v1.setNom("Hong Kong");
@@ -59,11 +59,6 @@ public class ClassMain {
 
 		System.out.println("Le nombre d'instances de la classe Ville est : " + Ville.nbreInstances);
 		System.out.println("Le nombre d'instances de la classe Ville est : " + Ville.getNbreInstancesBis());
-
-		// test heritage 
-
-		Capitale cap = new Capitale("Paris", 654987, "France", "la tour Eiffel");
-		System.out.println("\n" + cap.decrisToi());
 
 	}// Fin méthode main
 }// Fin classe ClassMain
